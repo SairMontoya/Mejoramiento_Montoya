@@ -1,6 +1,6 @@
 #Lista de funciones que imprimen los números del 10 al 1
 
 def  imprimir_numeros ( n ):
-    para  i  en  rango ( n , 0 , - 1 ):
-        imprimir ( yo )
+    for i  in  range ( n , 0 , - 1 ):
+        print ( i )
 imprimir_numeros ( 10 )
