@@ -1,11 +1,8 @@
-# Programa que lee un numero y dice si es positivo o negativo
+# Programa que lee dos números y dice si el primero es mayor que el segundo
 
-0:
-    print("El número es positivo.")
+num1 = int(input("Introduce el primer número: "))
+num2 = int(input("Introduce el segundo número: "))
+if num1 > num2:
+    print("El primer número es mayor que el segundo.")
 else:
-    print("El número es negativo.")
-num  =  int ( input ( "Introducir un numero: " ))
-si  numero  >  0 :
-    print ( "El número es positivo." )
-más :
-    print ( "El número es negativo." )
+    print("El segundo número es mayor que el primero.")

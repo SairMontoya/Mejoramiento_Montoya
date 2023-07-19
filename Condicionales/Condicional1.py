@@ -1,18 +1,7 @@
-#Programa que pide al usuario que digite dos numeros
+# Programa que lee un numero y dice si es positivo o negativo
 
-x=input('ingrese numero')
-y=input('ingrese numero')
-
-#Usaremos las condicionales if, elif y else
-
-if x==y:
-    print('son iguales')
-#Si se cumple quiere decir que los numeros son Descendente     
-
-elif x>y:
-    print('descendente')
-
-#Si no se cumple quiere decir que los numeros son Ascendentes
-
+num = int(input("Introduce un número: "))
+if num > 0:
+    print("El número es positivo.")
 else:
-    print('ascendente')
+    print("El número es negativo.")
